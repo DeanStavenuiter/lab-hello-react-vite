@@ -1,0 +1,87 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+ h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+} 
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.main{
+  background-image: url(./assets/background.png);
+  padding: 50px 0;
+}
+
+.topImges {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topImges:nth-child(1){
+  margin-left: 5%;
+}
+
+
+.text {
+  width: 50vw;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.text h1, .text p {
+  width: 300px;
+}
+
+.stripes{
+  height: 10px;
+  margin-right: 5%;
+}
+
+h3{
+  color: rgb(42, 42, 42);
+}
+
+.icons-text{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.item h3, .item p{
+  text-align: left;
+  margin-left: 35px;
+  max-width: 150px;
+}
+
+.item p {
+  color: grey;
+}
